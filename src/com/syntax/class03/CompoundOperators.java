@@ -6,25 +6,29 @@ public class CompoundOperators {
 		num = num + 100; // 200
 		System.out.println(num);
 
-		num = num + 100; // 300
-		System.out.println(num);
+		num = num + 100;
+		System.out.println(num);// 300
 
-		// We can use compound operators which are shorter
-		num += 100; // 400
-		System.out.println(num);
-		
-		//long way
-		//num = num - 50;
-		
-		//shorter way
+		// We can use Compound operators which are shorter
+		num += 100;
+		System.out.println(num);// 400
+
+		// long way
+		// num = num - 50;
+
+		// short way
 		num -= 50;
-		System.out.println(num);
-		
+		System.out.println(num); // 350
+
+		// num = num / 7;
 		num /= 7;
-		System.out.println(num);
-		
+		System.out.println(num); // 50
+
+		// num = num * 2;
 		num *= 2;
-		System.out.println(num);
+		System.out.println(num);// 100
+
+		// num = num % 9;
 		num %= 9;
 		System.out.println(num);
 	}
