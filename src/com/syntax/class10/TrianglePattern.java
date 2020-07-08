@@ -2,7 +2,7 @@ package com.syntax.class10;
 
 public class TrianglePattern {
 	public static void main(String[] args) {
-		// lets print the following triangle
+		// Let us print the following triangle
 		// *
 		// **
 		// ***
@@ -11,25 +11,28 @@ public class TrianglePattern {
 
 		for (int r = 1; r <= 5; r++) {
 
-			for (int c = 1; c <= 5; c++) {
+			for (int c = 1; c <= r; c++) {
 				System.out.print("*");
 			}
-			System.out.println();
-		}
-		System.out.println("------------");
-		for (int x = 1; x <= 5; x++) {
 
-			for (int c = 1; c <= x; c++) {
-				System.out.print("*");
-			}
 			System.out.println();
 		}
-		for (int x = 4; x >= 1; x--) {
 
-			for (int c = x; c >= 1; c--) {
+		// Let us add the second triangle
+		// ****
+		// ***
+		// **
+		// *
+
+		for (int r = 4; r >= 1; r--) {
+
+			for (int c = 1; c <= r; c++) {
 				System.out.print("*");
 			}
+
 			System.out.println();
 		}
+
 	}
+
 }
