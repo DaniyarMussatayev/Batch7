@@ -1,21 +1,26 @@
 package com.syntax.class07;
 
-public class WhileVSDoWhile {
+public class WhileVsDoWhile {
 	public static void main(String[] args) {
-		// print hello 5 times
+		// print hello 3 times
 
-		int x = 1;
-		while (x <= 3) { // check before going into the loop
-			System.out.println("hello");
+		int x = 11;
+		while (x <= 3) { // checks before going into the loop
+			System.out.println("Hello");
 			x++;
 		}
 
-		System.out.println("----------USING DO WHILE LOOP------------");
-		int y = 1;
+		System.out.println("-------Using a Do While loop--------");
+
+		int y = 11;
 		do {
-			System.out.println("hello");
+			System.out.println("Hello");
 			y++;
 		} while (y <= 3); // checks after going into the loop
+
+		// while checks if soup is hot, before eating
+		// do while check if soup is hot, after eating
+		// with do while loop you will get burn!!!
 	}
 
 }
