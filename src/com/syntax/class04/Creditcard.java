@@ -4,40 +4,26 @@ import java.util.Scanner;
 
 public class Creditcard {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.printf("%s?%n", "Do you have a creditcard");
-		String answer = scanner.next();
+		Scanner scan = new Scanner(System.in);
+		// Create a Java program that will ask if user has a credit card or not.
+		// If you user does not have a credit card then offer them.
+		// If they do have one ask what is balance on the card?
+		// If balance of the card is larger than 1000, tell them to pay off immediately,
+		// otherwise you can tell them that they can spend more.
 
-		if (answer.equalsIgnoreCase("no")) {
-			System.out.println("Do you want a creditcard?");
-		} else if (answer.equalsIgnoreCase("yes")) {
-			System.out.println("What is the balance of the creditcard?");
-			double balance = scanner.nextDouble();
-			if (balance > 1000) {
-				System.out.println("Please pay off immediately.");
-			} else {
-				System.out.println("You can spend more.");
-			}
+		System.out.println("Do you have a Credit Card?");
+		boolean answer = scan.nextBoolean();
+		if (answer == false) {
+			System.out.println("Do you want open our Credit Card?");
 		} else {
-			System.out.println("Please enter YES or NO only.");
-		}
-
-		System.out.println("Now please enter the number of worked years:");
-		double years = scanner.nextDouble();
-		System.out.println("Please enter annual salary");
-		int salary = scanner.nextInt();
-
-		if (years >= 5) {
-			if (salary > 50_000) {
-				System.out.println("Your bonus is 5000!");
+			System.out.println("What is balance on the Credit Card?");
+			int amount = scan.nextInt();
+			if (amount >= 1000) {
+				System.out.println("Pay off immediately");
 			} else {
-				System.out.println("Your bonus is 3000!");
+				System.out.println("You can spend more");
 			}
-		} else {
-			System.out.println("You are not eligible for a bonus. (");
 		}
-
-		scanner.close();
 
 	}
 

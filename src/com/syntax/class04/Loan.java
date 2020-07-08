@@ -4,24 +4,19 @@ import java.util.Scanner;
 
 public class Loan {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.printf("%S:%n", "please enter amount of loan you need");
+		// You are a loan specialist and you need to ask user what is the amount of loan
+		// is needed.
+		// If loan is less or equal to 200,000 then you would lend the money otherwise
+		// you would reject the client.
 
-		try {
-
-			int amount = scanner.nextInt();
-			if (amount <= 200_000) {
-				System.out.printf("%s", "Your loan is approved!");
-			} else {
-				System.out.printf("%s", "Sorry, your loan is not approved.");
-			}
+		Scanner scan = new Scanner(System.in);
+		System.out.println("What is the amount of loan is needed");
+		int num1 = scan.nextInt();
+		if (num1 <= 200000) {
+			System.out.println("I lend the money to user");
+		} else {
+			System.out.println("Request rejected");
 		}
-
-		catch (Exception e) {
-			System.out.println("Invalid input. Please enter whole numbers only.");
-		}
-
-		scanner.close();
 	}
 
 }

@@ -4,21 +4,18 @@ import java.util.Scanner;
 
 public class CityAndTemperature {
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Please enter your city and temperature:");
+		Scanner scan = new Scanner(System.in);
+		// Create a Java program that will ask user to input city and temperature.
+		// Your program should convert Fahrenheit into celsius and print "The
+		// temperature is the city __ is __"
 
-		try {
+		System.out.println("Please input city");
+		String city = scan.nextLine();
+		System.out.println("Please enter tempreture in Fahrenheit ");
+		int tempF = scan.nextInt();
+		int tempC = (tempF - 32) * 5 / 9;
+		System.out.println("The temperature is the city " + city + " is " + tempC + " celsius ");
 
-			String cityName = scanner.next();
-			double tempFah = scanner.nextDouble();
-			double tempCel = (tempFah - 32) * 5 / 9;
-
-			System.out.printf("The temperature in the city %s is %.2f.", cityName, tempCel);
-		} catch (Exception e) {
-			System.out.println("Invalid input. Please try again. Remember to enter city name first and temperature then.");
-
-		}
-		scanner.close();
 	}
 
 }
