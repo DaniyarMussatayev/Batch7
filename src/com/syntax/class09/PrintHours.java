@@ -3,20 +3,31 @@ package com.syntax.class09;
 public class PrintHours {
 	public static void main(String[] args) {
 		// Let us print the clock
-		// 0:00
-		// 0:01
-		// 1:00
+		// 00:00
+		// 00:01
+		// ...
+		// 01:00
+		// 01:01
+		// ...
+		// 23:58
 		// 23:59
+		// Hour goes from 00 to 23
+		// Minute goes from 00 to 59
 
-		for (int x = 0; x <= 23; x++) {
-			for (int j = 0; j <= 9; j++) {
-				System.out.println(x + ":0" + j);
+		for (int h = 0; h < 24; h++) {
+
+			for (int m = 0; m < 60; m++) {
+
+				if (m < 10) {
+					System.out.println(h + ":0" + m);
+				} else {
+					System.out.println(h + ":" + m);
+				}
+
 			}
-			for (int k = 10; k <= 59; k++) {
-				System.out.println(x + ":" + k);
-			}
+
 		}
 
+		// Ihsan should add seconds as Homework
 	}
-
 }
