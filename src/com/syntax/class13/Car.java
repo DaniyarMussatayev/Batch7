@@ -8,7 +8,8 @@ public class Car {
 	String color;
 	int year;
 	int speed;
-
+ 
+	
 	public static void main(String[] args) {
 
 		System.out.println("Hello I am main method");
