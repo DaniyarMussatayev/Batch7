@@ -15,4 +15,12 @@ public class Task1 {
 		}
 		return total;
 	}
+	
+	
+	public static void main(String[] args) {
+		int[] arr = { 1, 2, 3, 1, 1 };
+
+		Task1 obj =new Task1();
+		System.out.println(obj.myMethod(arr));
+	}
 }
