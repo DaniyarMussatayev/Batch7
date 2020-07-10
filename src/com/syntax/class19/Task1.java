@@ -1,4 +1,4 @@
-package com.syntax.class19;
+ package com.syntax.class19;
 
 public class Task1 {
 	// Create a method that will accept an array as parameters and will return a sum
@@ -22,5 +22,6 @@ public class Task1 {
 
 		Task1 obj =new Task1();
 		System.out.println(obj.myMethod(arr));
+		
 	}
 }
