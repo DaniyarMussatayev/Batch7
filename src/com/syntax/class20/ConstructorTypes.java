@@ -30,6 +30,7 @@ public class ConstructorTypes {
 
 	static void speak(String str) {
 		System.out.println(str);
+		
 	}
 
 }
