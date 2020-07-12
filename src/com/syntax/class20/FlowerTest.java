@@ -6,5 +6,6 @@ public class FlowerTest {
 			
 			//new Flower("Rose"); CE: not visible, since constructor is Private
 			
+			
 		}
 }

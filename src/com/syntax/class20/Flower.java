@@ -36,5 +36,6 @@ String type;
 		
 		flower2.display();
 		flower2.Flower();
+		
 	}
 }
