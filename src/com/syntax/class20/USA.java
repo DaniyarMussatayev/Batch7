@@ -14,5 +14,6 @@ public class USA {
 		
 		public void display() {
 			System.out.println("State is "+state +" and it is capital is "+capital);
+			
 		}
 }
