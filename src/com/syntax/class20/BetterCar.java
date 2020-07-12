@@ -15,5 +15,7 @@ public class BetterCar {
 		color=carColor;
 		year=carYear;
 		price=carPrice;
+		
+		
 	}
 }

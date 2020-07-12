@@ -10,5 +10,6 @@ public static void main(String[] args) {
 		car1.displayInfo();
 		
 		//new BetterCar(); CE: because we do not have a non argument constructor inside BetterCar class
+		
 	}
 }
