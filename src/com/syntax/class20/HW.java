@@ -28,5 +28,6 @@ public class HW {
 
 	private static String displayVowels(String value) {
 		return value.replaceAll("[^aeiouAEIOU]", "");
+		
 	}
 }
