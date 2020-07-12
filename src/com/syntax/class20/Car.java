@@ -46,6 +46,7 @@ public class Car {
 		
 		//static String driver; --> local variables CANNOT BE STATIC
 		//System.out.println(driver);
+		
 	}
 
 }
