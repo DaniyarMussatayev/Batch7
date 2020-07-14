@@ -5,6 +5,7 @@ public class USATest {
 
 		USA obj = new USA("Florida", "Jacksonville");
 		obj.displayInfo();
+		
 
 	}
 }
