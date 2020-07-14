@@ -26,4 +26,5 @@ public class USA {
 		displayCapital();
 		//this.displayCapital();Compiler adds this to reffer to instance method
 	}
+	
 }
