@@ -26,7 +26,32 @@ public class AnimalsTest {
 		dog.bark();
 
 		// create an Object of Cat class
+		Cat cat = new Cat();
+		cat.breed="Scotland";
+		cat.color="Grey";
+		cat.paws=4;
+		cat.fur="Fluffy";
+		cat.tail=true;
 		
+		cat.eat();
+		cat.sleep();
+		cat.purr();
+		
+		
+		// create an Object of Kitten class
+		Kitten kit =new Kitten();
+		kit.breed="Ragdoll";
+		kit.color="White";
+		kit.paws=4;
+		kit.fur="White";
+		kit.tail=true;
+		
+		kit.eat();
+		kit.cry();
+		kit.sleep();
+		
+
+
 		
 	}
 }
