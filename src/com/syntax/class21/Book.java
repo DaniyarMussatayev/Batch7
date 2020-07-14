@@ -4,27 +4,29 @@ public class Book {
 	//Write program as a Book class   that will have instance variables and 2 Constructors. While creating an object make sure:
 	//Instance variables are being initialized
 	//Both Constructors are being executed
-	String name;
-	double price;
+	String bookName, bookAuthor;
+	int bookPages;
 	
-	Book(){
-		this("Harry Potter", 2.99);
-		System.out.println();
+	public Book() {
+		System.out.println("You should read more!");
 	}
 	
-	Book (String name, double price){
-		this.name=name;
-		this.price=price;
-		System.out.println(name + " is cost " + price +"$");
+	public Book(String bookName, String bookAuthor, int bookPages) {
+		this();
+		this.bookName = bookName;
+		this.bookAuthor = bookAuthor;
+		this.bookPages = bookPages;
 	}
-//	void displayInfo() {
-//		System.out.println(name + " is cost " + price +"$");
-//	}
+	
+	public void display() {
+		System.out.println(
+				"Try to read " + " " + bookName + " " + " written by " + bookAuthor + ". It takes only " + bookPages + " pages.");
+	}
+	
 	public static void main(String[] args) {
-		Book obj =new Book();
-		
+		Book obj = new Book("The Order", "Daniel Silva", 464);
+		obj.display();
 	}
-	
 	
 
 }

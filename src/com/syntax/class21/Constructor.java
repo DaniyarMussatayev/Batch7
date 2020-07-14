@@ -18,6 +18,7 @@ public class Constructor {
 	public static void main(String[] args) {
 		System.out.println();
 		Constructor obj = new Constructor();
+		
 
 	}
 }
