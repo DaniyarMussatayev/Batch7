@@ -9,6 +9,7 @@ public class IceCreamTest {
 		g=new Gelato("mint", "magnum", "green");
 		
 		new MiniSorbeto("chocolate", "br", "brown", 2.49, 150);
+		
 	}
 
 }

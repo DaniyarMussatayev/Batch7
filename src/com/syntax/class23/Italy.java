@@ -21,5 +21,6 @@ public class Italy extends Country {
 	public static void main (String[] args){
 
 		Italy obj=new Italy("Italy","Pasta");
+		
 	}
 }
