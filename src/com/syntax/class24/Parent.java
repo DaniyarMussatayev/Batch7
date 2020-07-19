@@ -21,6 +21,7 @@ class Child extends Parent {
 	// @Override --> CE: we cannot override static methods
 	public static void hi() {
 		System.out.println("Hi from the child class");
+		
 	}
 
 }
