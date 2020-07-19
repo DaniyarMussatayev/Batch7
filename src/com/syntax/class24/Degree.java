@@ -22,5 +22,6 @@ class Masters extends Degree {
 class Bachelors extends Degree {
 	void getPrerequisite() {
 		System.out.println("To get a degree you need Bachelor degree");
+		
 	}
 }

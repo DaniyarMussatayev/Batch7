@@ -42,6 +42,7 @@ class AX extends CreditCard {
 
 	public AX(double balance) {
 		super(balance);
+		
 	}
 
 }

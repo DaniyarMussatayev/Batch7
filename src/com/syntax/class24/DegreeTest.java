@@ -10,9 +10,6 @@ public class DegreeTest {
 		
 		Masters obj3=new Masters();
 		obj3.getPrerequisite();
-		
-
-		
 
 	}
 

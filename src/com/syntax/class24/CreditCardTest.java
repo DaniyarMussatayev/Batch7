@@ -10,6 +10,7 @@ public class CreditCardTest {
 		AX ax=new AX(1000);
 		double intr=ax.dailyInterest();
 		System.out.println(intr);
+		
 	}
 
 }
