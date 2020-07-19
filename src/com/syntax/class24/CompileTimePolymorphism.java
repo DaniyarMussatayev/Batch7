@@ -8,6 +8,7 @@ public class CompileTimePolymorphism {
 		String newString = str.substring(0, 5);
 
 		System.out.println(newString);
+		
 
 	}
 

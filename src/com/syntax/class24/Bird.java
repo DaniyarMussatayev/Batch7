@@ -26,6 +26,7 @@ class BabyBird extends Bird {
 
 	public void cry() {
 		System.out.println("Baby bird is crying");
+		
 	}
 
 }
