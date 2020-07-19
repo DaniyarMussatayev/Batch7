@@ -19,6 +19,7 @@ public class Recap {
 	
 	private static void yes(int num) {
 		System.out.println(num);
+		
 	}
 
 }
