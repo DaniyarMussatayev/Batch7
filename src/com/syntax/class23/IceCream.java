@@ -1,4 +1,4 @@
-package com.syntax.class23;
+ package com.syntax.class23;
 
 public class IceCream {
 String flavor, brand, color;
@@ -29,6 +29,7 @@ class MiniSorbeto extends Sorbeto {
 	public MiniSorbeto(String flavor, String brand,String color, double price, int calories) {
 		super(flavor, brand, color, price);
 		this.calories=calories;
+		
 	}
 
 }
