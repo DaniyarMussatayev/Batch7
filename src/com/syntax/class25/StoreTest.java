@@ -25,6 +25,7 @@ public class StoreTest {
 			myStores[i].openHours();
 			System.out.println(" ---------  ");
 		}
+		
 
 	}
 

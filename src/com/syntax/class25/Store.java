@@ -50,6 +50,7 @@ class Nike extends Store {
 	public Nike(String name, String location, String shoes) {
 		super(name, location);
 		this.shoes = shoes;
+		
 	}
 
 }
