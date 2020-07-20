@@ -5,6 +5,7 @@ public class WebDriverTest {
 
 		WebDriver driver = new InternetExplorerDriver();
 		driver.open();
+		
 	}
 
 }
