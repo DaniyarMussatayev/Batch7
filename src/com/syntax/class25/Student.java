@@ -48,5 +48,6 @@ class SchoolStudent extends Student {
 
 	public void study() {
 		System.out.println("School time - best time ever");
+		
 	}
 }

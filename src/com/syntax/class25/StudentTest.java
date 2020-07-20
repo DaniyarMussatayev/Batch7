@@ -34,6 +34,7 @@ public class StudentTest {
 		Human obj1 = new SchoolStudent();
 		obj1.happy();
 		obj1.study();// runtime polymorphism
+		
 
 	}
 
