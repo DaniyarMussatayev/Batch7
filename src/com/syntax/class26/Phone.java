@@ -36,6 +36,7 @@ class IPhone extends Phone{
 	
 	public void playMusic() {
 		System.out.println("iPhone plays music in apple store");
+		
 	}
 	
 
