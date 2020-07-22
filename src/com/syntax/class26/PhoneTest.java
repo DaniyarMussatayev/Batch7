@@ -16,4 +16,5 @@ public static void main(String[] args) {
 		samsung.navigate();
 		samsung.playMusic();
 	}
+
 }
