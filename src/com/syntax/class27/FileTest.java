@@ -8,6 +8,7 @@ public class FileTest {
 		for(File file: files) {
 			file.open();
 		}
+		
 	}
 
 }
