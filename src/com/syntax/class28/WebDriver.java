@@ -65,5 +65,6 @@ class SafariDriver implements WebDriver,RemoteWedDriver,TakesScreenshot{
 	public void getScreenshot() {
 		System.out.println("SafariDriver can take screenshot");
 	}
+	
 }
 
