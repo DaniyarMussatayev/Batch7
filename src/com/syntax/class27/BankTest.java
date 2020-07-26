@@ -24,6 +24,7 @@ public class BankTest {
 		boa.withdraw();
 		boa.doInvestments();
 		boa.givesLoan();
+		
 	}
 
 }

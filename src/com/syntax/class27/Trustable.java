@@ -63,6 +63,7 @@ class BOA implements Bank, Investments {
 	
 	public void doInvestments() {
 		System.out.println("You can invest your money with BOA");
+		
 	}
 }
 //COMPLETE BOA CLASS
