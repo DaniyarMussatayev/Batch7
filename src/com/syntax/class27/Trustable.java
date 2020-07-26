@@ -8,8 +8,19 @@ public interface Trustable {
 
 interface Bank extends Trustable{
 	
-	void deposit();
+	boolean MONEY=true;//public static final
+	
+	void deposit();//public abstract
 	void withdraw();
+	
+	//from java 8 inside interface we can have default and static methods 
+	default void transferMoney() {
+		System.out.println("All banks must do transfer");
+	}
+	
+	static void checkCreditScore() {
+		System.out.println("All banks must check credit score");
+	}
 }
 
 class PNC extends Mortgage implements Bank, Investments {
@@ -32,6 +43,26 @@ class PNC extends Mortgage implements Bank, Investments {
 	
 	public void doInvestments() {
 		System.out.println("You can invest your money with PNC");
+	}
+}
+class BOA implements Bank, Investments {
+	
+	public void deposit() {
+		System.out.println("BOA takes deposit");
+	}
+	public void withdraw() {
+		System.out.println("BOA gives you your money");
+	}
+	public void trust() {
+		System.out.println("You can trust BOA your money");
+	}
+	
+	void givesLoan() {
+		System.out.println("You can take a loan in BOA");
+	}
+	
+	public void doInvestments() {
+		System.out.println("You can invest your money with BOA");
 	}
 }
 //COMPLETE BOA CLASS
