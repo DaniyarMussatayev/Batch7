@@ -13,9 +13,6 @@ public class WebDriverTest {
 		c1.navigate();
 		
 		TakesScreenshot c2=new ChromeDriver();
-		c2.open();
-		c2.close();
-		c2.navigate();
 		c2.getScreenshot();
 		
 		WebDriver f = new FirefoxDriver();
@@ -28,9 +25,7 @@ public class WebDriverTest {
 		f1.navigate();
 		
 		TakesScreenshot f2=new FirefoxDriver();
-		f2.open();
-		f2.close();
-		f2.navigate();
+		
 		f2.getScreenshot();
 		
 		WebDriver s = new SafariDriver();
@@ -43,9 +38,6 @@ public class WebDriverTest {
 		s1.navigate();
 		
 		TakesScreenshot s2=new SafariDriver();
-		s2.open();
-		s2.close();
-		s2.navigate();
 		s2.getScreenshot();
 		
 
