@@ -12,9 +12,16 @@ public class Task2 {
 		word.add("Leg");
 		word.add("Wine");
 		word.add("came");
-		
+
 		Iterator<String> it = word.iterator();
-		
+		while (it.hasNext()) {
+			String a = it.next();
+			if (a.endsWith("e")) {
+				it.remove();
+			}
+		}
+		System.out.println(word);
+
 	}
 
 }
